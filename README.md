@@ -9,8 +9,8 @@ Minesweeper game in C with a GUI. The main.c file is the Minesweeper game played
 ``gcc -o main main.c``<br>
 ``./main``
 
-### GTK Install
-In order to run this program, you must have GTK installed. The steps are listed below. Run the following commands in the terminal:<br>
+### GTK 3 Install
+In order to run this program, you must have GTK 3 installed. The steps are listed below. Run the following commands in the terminal:<br>
 1. Install Homebrew<br>``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``
 2. Install GTK and pkg-config via Homebrew<br>``brew install gtk+3 pkg-config``
 3. Compile the Program<br>``gcc -o main_Graphic main_Graphic.c $(pkg-config --cflags --libs gtk+-3.0)``<br>
