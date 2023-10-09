@@ -11,7 +11,7 @@ gcc -o main main.c<br>
 
 ### GTK Install
 In order to run this program, you must have GTK installed. Follow the steps below by running the commands in the terminal:<br>
-1. **Install Homebrew**: ``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``<br>
-2. **Install GTK and pkg-config via Homebrew**: ``brew install gtk+3 pkg-config``
-3. **Compile the Program**: ``gcc -o main_Graphic main_Graphic.c $(pkg-config --cflags --libs gtk+-3.0)<br>
+1. **Install Homebrew**<br>``/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``
+2. **Install GTK and pkg-config via Homebrew**:<br>``brew install gtk+3 pkg-config``
+3. **Compile the Program**: <br>``gcc -o main_Graphic main_Graphic.c $(pkg-config --cflags --libs gtk+-3.0)
 ./main_Graphic``
