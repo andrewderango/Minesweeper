@@ -5,7 +5,7 @@ Minesweeper game in C with a GUI. The main.c file is the Minesweeper game played
 gcc -o main_Graphic main_Graphic.c $(pkg-config --cflags --libs gtk+-3.0)<br>
 ./main_Graphic
 
-### Terminal Command to Run main_.c
+### Terminal Command to Run main.c
 gcc -o main main.c<br>
 ./main
 
