@@ -87,7 +87,7 @@ void getUserInput(char board[SIZE][SIZE], int *x, int *y) {
             }
         } else {
             printf("Invalid input format. Please enter two numbers separated by a space (x y).\n");
-            while (getchar() != '\n'); // Clear input buffer
+            while (getchar() != '\n'); // Clear input buffer. This line was written by ChatGPT
         }
     }
 }
@@ -155,7 +155,7 @@ int main() {
     printf("\nWelcome to Minesweeper!\nEnter the coordinates (x y) to reveal a cell.\n");
     createBoard(board);
     placeBombs(board);
-    printBoard(board, 1); // change to 0
+    printBoard(board, 0);
 
     int x, y;
     while (remainingCells>0 && !gameOver) {
