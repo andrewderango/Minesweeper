@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include <gtk/gtk.h>
 
 #define SIZE 10
@@ -254,10 +257,10 @@ int main(int argc, char *argv[]) {
         return 0;
     }
 
-    printf("\nWelcome to Minesweeper!\nEnter the coordinates (x y) to reveal a cell.\n");
+    printf("\nWelcome to Minesweeper!\nClick on a button in the window to guess a cell.\n");
     createBoard(board);
     placeBombs(board);
-    printBoard(board, 0); // Change to 1 to view bomb locations
+    // printBoard(board, 0); // Change to 1 to view bomb locations
 
     gtk_init(&argc, &argv);
 
