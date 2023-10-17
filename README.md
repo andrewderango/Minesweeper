@@ -10,7 +10,7 @@ Minesweeper game in C with a GUI. The main.c file is the Minesweeper game played
 ``./main``
 
 ## GTK 3 Install
-In order to run this program, you must have GTK 3 installed. The steps are listed below.<br>
+In order to run the version of the game with the GUI (main_Graphic.c), you must have GTK 3 installed. The installation steps are listed below for Windows and Mac.<br>
 
 ### Mac Install 
 If you are running on a macOS, run the following commands in the terminal if you do not already have GTK3 installed on your system:<br>
