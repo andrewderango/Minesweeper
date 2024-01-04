@@ -1,5 +1,7 @@
 # Minesweeper
-Minesweeper game in C with a GUI. The main.c file is the Minesweeper game played in the terminal and the main_Graphic.c includes a GUI using GTK. This is the first assignment of the MECHTRON 2MP3 course at McMaster University.
+
+## Overview
+Minesweeper game in C with a GUI. The main.c file is the Minesweeper game played in the terminal and the main_Graphic.c includes a GUI using GTK. This is the first assignment of the MECHTRON 2MP3 course at McMaster University. To play with the GUI, compile ```main_Graphic.c```. To play without the GUI, compile ```main.c```
 
 ### Terminal Command to Run main_Graphic.c
 ``gcc -o main_Graphic main_Graphic.c $(pkg-config --cflags --libs gtk+-3.0)``<br>
@@ -8,6 +10,9 @@ Minesweeper game in C with a GUI. The main.c file is the Minesweeper game played
 ### Terminal Command to Run main.c
 ``gcc -o main main.c``<br>
 ``./main``
+
+### Video Demo
+Check out the [video demonstration](https://youtu.be/2Xo9pq2RnC0) to see the Minesweeper app in action!
 
 ## GTK 3 Install
 In order to run the version of the game with the GUI (main_Graphic.c), you must have GTK 3 installed. The shell game (main.c) requires no previous installations other than the C compiler. The installation steps are listed below for Windows and Mac.<br>
